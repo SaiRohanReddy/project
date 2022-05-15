@@ -1,0 +1,76 @@
+.container {
+    width: 60%;
+    height: 30%;
+    background-color: whitesmoke;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.buttons {
+    margin-top: 30px;
+    float: right;
+    padding: 10px;
+}
+
+.create {
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+    background-color: #0277bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.create:hover{
+    cursor: pointer;
+}
+
+.cancel {
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
+
+.name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.name:focus {
+    outline: none;
+}
+.disabled {
+    background-color: lightgray;
+    color: whitesmoke;
+}
+
+.disabled:hover {
+    cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+
+    .buttons {
+        margin-top: 0;
+        align-items: center;
+    }
+    
+}
